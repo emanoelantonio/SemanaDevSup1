@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
-   <h1>Mais um App</h1>
+  <div>
+    <Header/>
+  </div> 
   );
 }
 
